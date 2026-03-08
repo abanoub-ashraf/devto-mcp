@@ -158,10 +158,10 @@ Use this MCP config block:
 {
   "mcpServers": {
     "devto": {
-      "command": "/Users/abanoubashraf/.local/bin/uv",
+      "command": "<PATH_TO_UV>",
       "args": [
         "--directory",
-        "/Users/abanoubashraf/devto-mcp",
+        "<PATH_TO_REPO>",
         "run",
         "server.py"
       ],
@@ -174,7 +174,11 @@ Use this MCP config block:
 }
 ```
 
-Replace `YOUR_DEVTO_API_KEY` with the real value.
+Replace:
+
+- `YOUR_DEVTO_API_KEY` with your real Dev.to API key
+- `<PATH_TO_UV>` with the output of `which uv`
+- `<PATH_TO_REPO>` with the absolute path to this repository
 
 ## Where To Put The MCP Config
 
