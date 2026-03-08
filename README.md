@@ -166,8 +166,7 @@ Use this MCP config block:
         "server.py"
       ],
       "env": {
-        "DEV_TO_API_KEY": "YOUR_DEVTO_API_KEY",
-        "DEV_TO_BASE_URL": "https://dev.to/api"
+        "DEV_TO_API_KEY": "YOUR_DEVTO_API_KEY"
       }
     }
   }
