@@ -1,7 +1,7 @@
 [project]
 name = "devto-mcp-server"
 version = "1.0.0"
-description = "Model Context Protocol server implementation for Dev.to to allow AI assistants to access and interact with Dev.to content"
+description = "MCP server for reading, researching, drafting, and publishing Dev.to content via the Forem API"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
