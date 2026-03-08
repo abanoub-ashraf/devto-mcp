@@ -1,6 +1,13 @@
 # Dev.to MCP Server
 
-## Fresh v1.0.0 setup for reading, researching, drafting, and publishing Dev.to content through MCP
+> v1.0.0
+>
+> Read, research, draft, and publish Dev.to content via MCP and the Forem API.
+
+[![Version](https://img.shields.io/badge/version-1.0.0-black.svg)](https://github.com/abanoub-ashraf/devto-mcp/releases/tag/v1.0.0)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
+## Fresh setup for reading, researching, drafting, and publishing Dev.to content through MCP
 
 This repository contains a Python MCP server for Dev.to / Forem. It is built for local use with MCP clients such as Claude Desktop and Cursor, and it focuses on the workflows that are actually useful day to day:
 
@@ -13,6 +20,10 @@ This repository contains a Python MCP server for Dev.to / Forem. It is built for
 - publish drafts by updating `published=true`
 
 The server uses the Forem v1 API contract via the v1 `Accept` header and the public Dev.to API base URL.
+
+## Quick pitch
+
+If you want an MCP that can help you scout Dev.to trends, mine tags and comments for ideas, keep drafts flowing, and publish from the same chat surface, this is the repo. No weird framework cosplay, just a focused Python MCP server that does the job.
 
 ## What This MCP Does
 
